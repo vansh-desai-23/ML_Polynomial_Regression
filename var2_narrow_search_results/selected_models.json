@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "stage": "refine",
+  "models": {
+    "var2": {
+      "degree": 11,
+      "method": "elastic_net",
+      "alpha": 0.0002,
+      "l1_ratio": 0.9,
+      "pooled_oof_mse": 0.3306391141222827,
+      "pooled_oof_r2": 0.9924206152412208,
+      "mean_fold_mse": 0.3306609209421307,
+      "std_fold_mse": 0.0315659518561756,
+      "selection_metric": "pooled_oof_mse",
+      "unconverged_folds": 0
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "stage": "broad",
+  "models": {
+    "var1": {
+      "degree": 5,
+      "method": "elastic_net",
+      "alpha": 0.003,
+      "l1_ratio": 1.0,
+      "pooled_oof_mse": 0.37165046092218096,
+      "pooled_oof_r2": 0.9625577351053922,
+      "mean_fold_mse": 0.371650460922181,
+      "std_fold_mse": 0.047639014786099956,
+      "selection_metric": "pooled_oof_mse",
+      "unconverged_folds": 0
+    },
+    "var2": {
+      "degree": 11,
+      "method": "elastic_net",
+      "alpha": 0.0002,
+      "l1_ratio": 1.0,
+      "pooled_oof_mse": 0.3305688709354531,
+      "pooled_oof_r2": 0.9924222254564583,
+      "mean_fold_mse": 0.3305977234926715,
+      "std_fold_mse": 0.0331950355409993,
+      "selection_metric": "pooled_oof_mse",
+      "unconverged_folds": 0
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "solver": {
+    "tol": 1e-07,
+    "max_iter": 100000,
+    "retry_iter": 300000
+  },
+  "problems": {
+    "var1": {
+      "status": "complete",
+      "config": {
+        "degree": 5,
+        "method": "elastic_net",
+        "alpha": 0.003125,
+        "l1_ratio": 1.0
+      },
+      "cv": {
+        "pooled_oof_mse": 0.3715757098389658,
+        "pooled_oof_r2": 0.9625652659714968
+      },
+      "training_sha256": "83bbe4ed2e20076ae57604eb190aaf9033532130414bbc63418049c3a255cda1",
+      "test_sha256": "4c274bb0f20f3ea98f0dc6203c81fc21d0551278289e776299aadc2ad6c8673f",
+      "development_rows": 800,
+      "holdout_rows": 200,
+      "holdout": {
+        "mse": 0.332857103525823,
+        "r2": 0.9681856361117137
+      },
+      "development_fit": {
+        "converged": true,
+        "n_iter": 1197,
+        "dual_gap": 9.962275727914971e-08
+      },
+      "final_fit": {
+        "converged": true,
+        "n_iter": 436,
+        "dual_gap": 9.30622903574374e-08
+      },
+      "prediction_rows": 1000,
+      "prediction_sha256": "6b267726473df44e9f5b792be6ef4c5793f20553e47243441c0cb0b9be4bb130"
+    },
+    "var2": {
+      "status": "complete",
+      "config": {
+        "degree": 11,
+        "method": "elastic_net",
+        "alpha": 0.0002,
+        "l1_ratio": 0.9
+      },
+      "cv": {
+        "pooled_oof_mse": 0.3306391141222827,
+        "pooled_oof_r2": 0.9924206152412208
+      },
+      "training_sha256": "8be2ec0acf9a5c1df5850ce7f386ad57f3ff10b14e2681a6ff00dc94561f4bb0",
+      "test_sha256": "a65fe0b6a3cccee336e3a1a6a7e3c7c1836ef827d45111a14699988ece58d9d7",
+      "development_rows": 796,
+      "holdout_rows": 204,
+      "holdout": {
+        "mse": 0.2530296699831765,
+        "r2": 0.9949302735691977
+      },
+      "development_fit": {
+        "converged": true,
+        "n_iter": 89801,
+        "dual_gap": 9.83630290010765e-08
+      },
+      "final_fit": {
+        "converged": true,
+        "n_iter": 72530,
+        "dual_gap": 8.606128273225266e-08
+      },
+      "prediction_rows": 1000,
+      "prediction_sha256": "87549b4ffa39b629e37d662f6184edba219f74c0925fe63ef1eefd931110468d"
+    }
+  }
+}
